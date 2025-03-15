@@ -1,0 +1,164 @@
+{
+  "nodes": {
+    "public java.lang.String com.wshake.flow.spring.controller.Test.test2(java.lang.Long)": {
+      "name": "test2",
+      "desc": "",
+      "type": "METHOD",
+      "methodName": "test2",
+      "methodKey": "public java.lang.String com.wshake.flow.spring.controller.Test.test2(java.lang.Long)",
+      "originalClazz": "com.wshake.flow.spring.controller.Test",
+      "inputs": {
+        "num": {
+          "name": "num",
+          "parameterType": "java.lang.Long"
+        }
+      },
+      "outputs": {
+        "test2": {
+          "name": "test2",
+          "returnType": "java.lang.String"
+        }
+      },
+      "methodParameterTypes": [
+        "java.lang.Long"
+      ]
+    },
+    "public static java.lang.Object com.wshake.flow.core.FlowExecutor.execute(java.lang.String,java.lang.Object[])": {
+      "name": "execute",
+      "desc": "",
+      "type": "ENDPOINT",
+      "methodName": "execute",
+      "methodKey": "public static java.lang.Object com.wshake.flow.core.FlowExecutor.execute(java.lang.String,java.lang.Object[])",
+      "originalClazz": "com.wshake.flow.core.FlowExecutor",
+      "inputs": {
+        "arg1": {
+          "name": "arg1",
+          "parameterType": "[Ljava.lang.Object;"
+        },
+        "arg0": {
+          "name": "arg0",
+          "parameterType": "java.lang.String"
+        }
+      },
+      "outputs": {
+        "execute": {
+          "name": "execute",
+          "returnType": "java.lang.Object"
+        }
+      },
+      "methodParameterTypes": [
+        "java.lang.String",
+        "[Ljava.lang.Object;"
+      ]
+    },
+    "public java.lang.Long com.wshake.flow.spring.controller.Local.sum(java.lang.Long,java.lang.Long)": {
+      "name": "sum",
+      "desc": "",
+      "type": "METHOD",
+      "methodName": "sum",
+      "methodKey": "public java.lang.Long com.wshake.flow.spring.controller.Local.sum(java.lang.Long,java.lang.Long)",
+      "originalClazz": "com.wshake.flow.spring.controller.Local",
+      "inputs": {
+        "num1": {
+          "name": "num1",
+          "parameterType": "java.lang.Long"
+        },
+        "num2": {
+          "name": "num2",
+          "parameterType": "java.lang.Long"
+        }
+      },
+      "outputs": {
+        "sum": {
+          "name": "sum",
+          "returnType": "java.lang.Long"
+        }
+      },
+      "methodParameterTypes": [
+        "java.lang.Long",
+        "java.lang.Long"
+      ]
+    },
+    "public java.lang.Long com.wshake.flow.spring.controller.Local.sub(java.lang.Long,java.lang.Long)": {
+      "name": "sub",
+      "desc": "",
+      "type": "METHOD",
+      "methodName": "sub",
+      "methodKey": "public java.lang.Long com.wshake.flow.spring.controller.Local.sub(java.lang.Long,java.lang.Long)",
+      "originalClazz": "com.wshake.flow.spring.controller.Local",
+      "inputs": {
+        "num": {
+          "name": "num",
+          "parameterType": "java.lang.Long"
+        },
+        "num2": {
+          "name": "num2",
+          "parameterType": "java.lang.Long"
+        }
+      },
+      "outputs": {
+        "sub": {
+          "name": "sub",
+          "returnType": "java.lang.Long"
+        }
+      },
+      "methodParameterTypes": [
+        "java.lang.Long",
+        "java.lang.Long"
+      ]
+    },
+    "public java.lang.String com.wshake.flow.spring.controller.Test.test(java.lang.Long)": {
+      "name": "test",
+      "desc": "",
+      "type": "METHOD",
+      "methodName": "test",
+      "methodKey": "public java.lang.String com.wshake.flow.spring.controller.Test.test(java.lang.Long)",
+      "originalClazz": "com.wshake.flow.spring.controller.Test",
+      "inputs": {
+        "num": {
+          "name": "num",
+          "parameterType": "java.lang.Long"
+        }
+      },
+      "outputs": {
+        "test": {
+          "name": "test",
+          "returnType": "java.lang.String"
+        }
+      },
+      "methodParameterTypes": [
+        "java.lang.Long"
+      ]
+    },
+    "public java.lang.Object com.wshake.flow.spring.controller.FlowController.execute(java.lang.String,java.lang.String)": {
+      "name": "execute",
+      "desc": "",
+      "type": "ENDPOINT",
+      "methodName": "execute",
+      "methodKey": "public java.lang.Object com.wshake.flow.spring.controller.FlowController.execute(java.lang.String,java.lang.String)",
+      "originalClazz": "com.wshake.flow.spring.controller.FlowController",
+      "inputs": {
+        "num1": {
+          "name": "num1",
+          "parameterType": "java.lang.String"
+        },
+        "num2": {
+          "name": "num2",
+          "parameterType": "java.lang.String"
+        }
+      },
+      "outputs": {
+        "execute": {
+          "name": "execute",
+          "returnType": "java.lang.Object"
+        }
+      },
+      "methodParameterTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  },
+  "platform": "java",
+  "id": "a7a82ae5-6957-4fbc-97af-7c9e023906dd"
+}
