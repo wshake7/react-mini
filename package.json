@@ -12,9 +12,9 @@
     }
   },
   "scripts": {
-    "dev": "bun gen && vite --open",
+    "dev": "vite gen && vite --open",
     "serve": "vite preview",
-    "gen": "bun ./locales/auto-gen-i18n.cjs",
+    "gen": "node ./locales/auto-gen-i18n.cjs",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
