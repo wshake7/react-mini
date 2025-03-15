@@ -25,5 +25,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": ["src", "locales/common.ts"]
+  "include": ["src", "locales/common.ts"],
+  "exclude": ["dist", "node_modules", "cypress"]
 }
