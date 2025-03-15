@@ -14,6 +14,10 @@
       "@/*": ["./src/*"],
       "~/*": ["./"]
     },
+    "types": [
+      "vitest",
+      "vite-plugin-pwa/client",
+    ],
     "allowImportingTsExtensions": true,
 
     /* Linting */
@@ -26,5 +30,6 @@
     "skipLibCheck": true
   },
   "include": ["src", "locales/common.ts"],
-  "exclude": ["dist", "node_modules", "cypress"]
+  // "exclude": ["dist", "node_modules", "cypress"]
+  "exclude": ["node_modules", "cypress"]
 }

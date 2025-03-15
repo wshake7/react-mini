@@ -1,5 +1,5 @@
 import { defineConfig } from 'cypress'
-import vitePreprocessor from 'cypress-vite'
+const vitePreprocessor = require('cypress-vite');
 
 export default defineConfig({
   e2e: {
@@ -8,7 +8,10 @@ export default defineConfig({
     specPattern: 'cypress/e2e/**/*.spec.*',
     supportFile: false,
     setupNodeEvents(on) {
-      on('file:preprocessor', vitePreprocessor())
+      on(
+        'file:preprocessor', 
+        vitePreprocessor()
+      )
     },
   },
 })
