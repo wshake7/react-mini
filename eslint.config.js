@@ -8,5 +8,8 @@ export default antfu({
   lessOpinionated: true,
 
   rules: {
+    'prefer-template': 'off',
+    'style/max-statements-per-line': 'off',
+    'eslint-comments/no-unlimited-disable': 'off'
   },
 })
