@@ -3,15 +3,19 @@
     "target": "ES2022",
     "lib": ["ES2023"],
     "moduleDetection": "force",
-    "baseUrl": "./",
     "module": "ESNext",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "~/*": [
+        "./*"
+      ]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "paths": {
-      "@/*": ["./src/*"],
-      "~/*": ["./"]
-    },
     "allowImportingTsExtensions": true,
 
     /* Linting */

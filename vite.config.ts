@@ -3,8 +3,8 @@ import tailwindcss from '@tailwindcss/vite'
 import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
 import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
-import { VitePWA } from 'vite-plugin-pwa'
 import { viteMockServe } from 'vite-plugin-mock'
+import { VitePWA } from 'vite-plugin-pwa'
 import 'vitest/config'
 
 // https://vitejs.dev/config/
